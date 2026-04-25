@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.container {
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+    margin-right: 10px;
+    line-height: 150px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.last {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 0;
+}
